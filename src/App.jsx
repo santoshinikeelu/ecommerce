@@ -41,11 +41,11 @@ function App() {
           </div>
         </div>
       </div>
-        <div className="buffer ">
+        <div className=" ">
           <div className="pl-9 mt-[5rem] text-[1rem] font-light">Great Style For Everyone</div>
           <div className="pl-9 mt-[0.25rem] text-[3rem]">I Love to Help People Feel Great <br /> about How They Look.</div>
-          <div className="bg-black">
-
+          <div className="bg-orange-500 relative">
+          <img className="h- m-2 ml-6" src="/the-model.jpg" alt="Image" />
           </div>
 
         </div>
