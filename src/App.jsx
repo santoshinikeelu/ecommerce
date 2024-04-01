@@ -104,46 +104,43 @@ function App() {
           <img className="h-[100%]" src="/model-3.jpg" alt="Image" />
           <img className="h-[80%]" src="/model-4.jpg" alt="Image" />
         </div>
-        <div className="relative grid grid-cols-3 place-items-start gap-5  h-[40vh] w-[100vw]  mx-[4rem]">
-          <div className="flex flex-col">
-         <div className="flex items-start gap-3">
-         <img className="h-[15%]  " src="/01-free-img.png" alt="Image" />
-         <div className=" text-black font-semibold text-[1.75rem]">
-         Wardrobe Styling
-         </div>
-         </div>
-         <div className="text-[1rem] mt-5 ml-[3.5rem] font-thin ">
-         Sem curae incidunt in. Illum, culpa debitis omnis convallis fugiat temporibus
-         </div>
-
+        <div className="relative grid grid-cols-3 place-items-start gap-5  h-[40vh] w-[100vw]  my-[5rem]">
+          <div className="flex flex-col col-span-1 ml-[4rem]">
+            <div className="flex items-start gap-3">
+              <img className="h-[15%]  " src="/01-free-img.png" alt="Image" />
+              <div className=" text-black font-semibold text-[1.75rem]">
+                Wardrobe Styling
+              </div>
+            </div>
+            <div className="text-[1rem] mt-5 ml-[3.5rem] font-thin ">
+              Sem curae incidunt in. Illum, culpa debitis omnis convallis fugiat
+              temporibus
+            </div>
           </div>
-          <div className="flex flex-col">
-         <div className="flex items-start gap-3">
-         <img className="h-[15%]  " src="/02.png" alt="Image" />
-         <div className=" text-black font-semibold text-[1.75rem]">
-         
-Closet Cleanse
-         </div>
-         </div>
-         <div className="text-[1rem] mt-5 ml-[3.5rem] font-thin ">
-         Sem curae incidunt in. Illum, culpa debitis omnis convallis fugiat temporibus
-         </div>
-
+          <div className="flex flex-col col-span-1 mx-[2rem]">
+            <div className="flex items-start gap-3">
+              <img className="h-[15%]  " src="/02.png" alt="Image" />
+              <div className=" text-black font-semibold text-[1.75rem]">
+                Closet Cleanse
+              </div>
+            </div>
+            <div className="text-[1rem] mt-5 ml-[3.5rem] font-thin ">
+              Sem curae incidunt in. Illum, culpa debitis omnis convallis fugiat
+              temporibus
+            </div>
           </div>
-          <div className="flex flex-col">
-         <div className="flex items-start gap-3">
-         
-         <img className="h-[15%]  " src="/03.png" alt="Image" />
-         <div className=" text-black font-semibold text-[1.75rem]">
-         Shopping Tour
-         </div>
-         </div>
-         <div className="text-[1rem] mt-5 ml-[3.5rem] font-thin ">
-         Sem curae incidunt in. Illum, culpa debitis omnis convallis fugiat temporibus
-         </div>
-
+          <div className="flex flex-col col-span-1 mr-[4rem]">
+            <div className="flex items-start gap-3">
+              <img className="h-[15%]  " src="/03.png" alt="Image" />
+              <div className=" text-black font-semibold text-[1.75rem]">
+                Shopping Tour
+              </div>
+            </div>
+            <div className="text-[1rem] mt-5 ml-[3.5rem] font-thin ">
+              Sem curae incidunt in. Illum, culpa debitis omnis convallis fugiat
+              temporibus
+            </div>
           </div>
-          
         </div>
       </div>
     </div>
