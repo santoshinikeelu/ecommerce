@@ -7,7 +7,7 @@ function Header() {
        
  
       <div className=" flex font-bold text-2xl col-span-1  place-items-start p-2">
-      <img className="h-12 cursor-pointer " src="/karalogo.svg" alt="Image" /> 
+      <img className="h-12 cursor-pointer " src="/vite.svg" alt="Image" /> 
       </div>
       <div className="flex gap-7 place-content-end items-center col-span-3 p-3  font-semibold text-sm">
         <span className="cursor-pointer  hover:text-red-700">Home</span>
