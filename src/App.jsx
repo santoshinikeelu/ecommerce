@@ -10,25 +10,25 @@ function App() {
         <div className="col-span-1">
           <h1
             className="text-white/85 
-         text-[2.5rem]  absolute top-8 left-10"
+         text-[1.8rem]  md:text-[1.5rem] lg:text-[2rem] xl:text-[2.5rem]  absolute top-12 left-8"
           >
             Let’s Create Your.
           </h1>
           <div
             className="text-white/85 
-         text-[4rem] absolute top-[7.5rem] left-10 "
+         text-[2.5rem]  md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem] absolute top-[7.5rem] left-[1.5rem] "
           >
             <div className=" flex justify-center items-start flex-col">
               <span> Own Style with </span>
               <span>K.A.R.A.!</span>
             </div>
           </div>
-          <div className="flex flex-row ">
+          <div className="flex flex-col sm:flex-col md:flex-row  lg:flex-row  xl:flex-row  ">
             <button
               class="border-[0.05rem] text-white/85 
-         text-[0.95rem]  absolute top-[22rem] left-10 px-[2rem] py-[0.5rem] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-50 "
+         text-[0.95rem]  absolute top-[18rem] left-6 px-[2rem] py-[0.5rem] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-50 "
             >
-              <div className=" flex justify-center items-start flex-row gap-3">
+              <div className=" flex justify-center items-start flex-row gap-3 ">
                 <span>
                   {" "}
                   <FaArrowRight size={18} />{" "}
@@ -38,7 +38,7 @@ function App() {
             </button>
             <button
               class=" text-white/85 
-         text-[0.95rem]  absolute top-[22.5rem] left-[20rem] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-50 "
+         text-[0.95rem]  absolute top-[22.5rem] left-6  md:left-[20rem] lg:left-[20rem] xl:left-[20rem] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-50 "
             >
               <div className=" flex justify-center items-start flex-row gap-3">
                 <span>
@@ -52,26 +52,26 @@ function App() {
         </div>
       </div>
       <div className="  relative  ">
-        <div className="pl-9 mt-[5rem] text-[1rem] font-light">
+        <div className="pl-7 mt-[4rem] md:mt-[5rem] lg:mt-[5rem] xl:mt-[5rem] text-[1rem] font-light">
           Great Style For Everyone
         </div>
-        <div className="pl-9 mt-[0.25rem] text-[3rem]">
-          I Love to Help People Feel Great <br /> about How They Look.
+        <div className="pl-7 mt-[0.75rem] md:mt-[0.25rem] lg:mt-[0.25rem] xl:mt-[0.25rem] text-[1.8rem]  md:text-[3rem] lg:text-[3rem] xl:text-[3rem]">
+          I Love to Help People Feel Great  about How They Look.
         </div>
-        <div className="bg-[#C2A09E] h-[30rem] mt-[8rem] ">
+        <div className="bg-[#C2A09E] h-[80rem] w-full md:h-[30rem] lg:h-[30rem] xl:h-[30rem] mt-[10rem]  md:mt-[8rem] lg:mt-[8rem] xl:mt-[8rem]  ">
           <div className=" "></div>
-          <div className="absolute left-[4rem] top-[20rem]">
-            <img className=" h-[37rem]" src="/the-model.jpg" alt="Image" />
+          <div className="absolute px-[2.5rem] md:left-[4rem] lg:left-[4rem] xl:left-[4rem] top-[20rem]">
+            <img className=" h-[23rem] md:h-[37rem] lg:h-[37rem] xl:h-[37rem]" src="/the-model.jpg" alt="Image" />
           </div>
           <div
-            className="absolute left-[38rem] top-[30rem]  text-white/85 
-         text-[2rem] mr-[6rem]"
+            className="absolute left-[8rem] md:left-[38rem] lg:left-[38rem] xl:left-[38rem] top-[44rem] md:top-[30rem] lg:top-[30rem] xl:top-[30rem]  text-white/85 
+         text-[1em] md:text-[2rem] lg:text-[2rem] xl:text-[2rem] mr-[6rem]"
           >
             Discover Your Personal Style and the Confidence That Comes with It.
           </div>
           <div
-            className="absolute left-[38rem] top-[38rem]  text-white/85 
-         text-[0.96rem] mr-[6rem]"
+            className="absolute left-[8rem] md:left-[38rem] lg:left-[38rem] xl:left-[38rem] top-[38rem]  text-white/85 
+         text-[0.6rem] md:text-[0.96rem] lg:text-[0.96rem] xl:text-[0.96rem] mr-[6rem]"
           >
             Tempora aliqua cillum accusamus aperiam pharetra cupidatat fermentum
             viverra delectus quidem incidunt tempus itaque quam, id blandit
@@ -216,36 +216,36 @@ function App() {
             <div className="text-white/85 text-[3rem] mt-[3rem] mx-[2rem]">
               Area of Expertise!
             </div>
-            <div className="grid grid-cols-1 divide-y">
+           
 
-            <div className="text-black text-[1rem] mt-[2rem] mx-[2rem] font-bold  flex justify-between items-start">
+            <div className="text-black text-[1rem] mt-[2rem] mx-[2rem] font-bold  flex justify-between items-start border-b-[0.05rem] border-white/40 py-[0.5rem]">
                 <span>Style</span>
             <span>
                   {" "}
                   <IoMdArrowDropright size={18} />{" "}
                 </span>
             </div>
-            <div className="text-black text-[1rem] mt-[2rem] mx-[2rem] font-bold  flex justify-between items-start">
+            <div className="text-black text-[1rem] mt-[2rem] mx-[2rem] font-bold  flex justify-between items-start border-b-[0.05rem] border-white/40 py-[0.5rem]">
                 <span>Tranding Fashion</span>
             <span>
                   {" "}
                   <IoMdArrowDropright size={18} />{" "}
                 </span>
             </div>
-            <div className="text-black text-[1rem] mt-[2rem] mx-[2rem] font-bold  flex justify-between items-start">
+            <div className="text-black text-[1rem] mt-[2rem] mx-[2rem] font-bold  flex justify-between items-start border-b-[0.05rem] border-white/40 py-[0.5rem]">
                 <span>People & Place</span>
             <span>
                   {" "}
                   <IoMdArrowDropright size={18} />{" "}
                 </span>
             </div>
-            <div className="text-black text-[1rem] mt-[2rem] mx-[2rem] font-bold  flex justify-between items-start">
+            <div className="text-black text-[1rem] mt-[2rem] mx-[2rem] font-bold  flex justify-between items-start border-b-[0.05rem] border-white/40 py-[0.5rem]">
                 <span>Before-After</span>
             <span>
                   {" "}
                   <IoMdArrowDropright size={18} />{" "}
                 </span>
-            </div>
+            
             </div>
             
            
