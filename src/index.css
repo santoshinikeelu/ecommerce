@@ -33,8 +33,3 @@
   text-align: center;
 }
 
-.buffer {
-  width: 100%;
-  min-height: 80vh;
-  background-color: var(--color);
-}
