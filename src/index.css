@@ -11,7 +11,7 @@
 .parallax-container {
   position: relative;
   display: flex;
-  min-height: 100vh;
+  min-height: 130vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -29,7 +29,11 @@
   background-size: cover;
   color: var(--color);
   row-gap: 4rem;
-
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .parallax-container {
+    min-height: 140vh; /* Change min-height for medium-sized screens (md) */
+  }
+}
