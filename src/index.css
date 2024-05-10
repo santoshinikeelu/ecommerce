@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.btn{
+  @apply border-2 border-pink-700
+}
 * {
   font-family: "Tauri", sans-serif;
   font-weight: 400;
@@ -11,7 +14,7 @@
 .parallax-container {
   position: relative;
   display: flex;
-  min-height: 130vh;
+  min-height: 45vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -31,9 +34,28 @@
   row-gap: 4rem;
   text-align: center;
 }
-
+@media (min-width: 650px) {
+  .parallax-container {
+    min-height: 40vh; /* Change min-height for medium-sized screens (md) */
+  }
+}
 @media (min-width: 768px) {
   .parallax-container {
-    min-height: 140vh; /* Change min-height for medium-sized screens (md) */
+    min-height: 40vh; /* Change min-height for medium-sized screens (md) */
+  }
+}
+@media (min-width: 1024px) {
+  .parallax-container {
+    min-height: 55vh; /* Change min-height for medium-sized screens (md) */
+  }
+}
+@media (min-width: 1280px) {
+  .parallax-container {
+    min-height: 55vh; /* Change min-height for medium-sized screens (md) */
+  }
+}
+@media (min-width: 1536px) {
+  .parallax-container {
+    min-height: 55vh; /* Change min-height for medium-sized screens (md) */
   }
 }

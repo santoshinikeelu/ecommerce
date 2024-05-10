@@ -8,9 +8,9 @@ function Footer() {
           Copyright © 2024 Fashion Lifestyle Blog
         </div>
         <div className="flex gap-7 place-items-center lg:place-content-end items-center col-span-1 mx-auto p-2 lg:mr-2 lg:my-2  font-semibold text-sm text-white  ">
-          <span className="cursor-pointer ">Home</span>
-          <span className="cursor-pointer ">Blog</span>
-          <span className="cursor-pointer ">Contact</span>
+          <span className="cursor-pointer xl:text-[1.3rem] ">Home</span>
+          <span className="cursor-pointer xl:text-[1.3rem] ">Blog</span>
+          <span className="cursor-pointer xl:text-[1.3rem] ">Contact</span>
         </div>
       </div>
     </div>
