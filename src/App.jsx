@@ -52,7 +52,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="  relative  ">
+        <div className=" relative  ">
           <div className="flex px-[1.5rem] items-start mt-[4rem] md:mt-[4rem] lg:mt-[3rem] xl:mt-[5rem] text-[1rem] md:text-[1.3rem] lg:text-[2rem] font-light ">
             Great Style For Everyone
           </div>
@@ -63,20 +63,20 @@ function App() {
             <div className=" "></div>
             <div className="absolute  mx-[4rem] sm:mx-[10rem] md:mx-[1rem] lg:mx-[2rem]  xl:mx-[3rem] top-[16rem] md:top-[19.5rem] lg:top-[16.9rem] xl:top-[17rem] ">
               <img
-                className=" h-[45vh] w-[65vw] sm:h-[45vh] sm:w-[55vw] md:h-[40vh] md:w-[40vw] lg:h-[70vh] lg:w-[40vw] xl:h-[85vh] xl:w-[35vw]  "
+                className=" h-[45vh] w-[65vw] sm:h-[45vh] sm:w-[55vw] md:h-[40vh] md:w-[30vw] lg:h-[70vh] lg:w-[40vw] xl:h-[85vh] xl:w-[35vw]  "
                 src="/the-model.jpg"
                 alt="Image"
               />
             </div>
             <div
-              className="absolute px-[1rem] md:left-[23rem] lg:left-[29rem] xl:left-[35rem] top-[42rem] sm:top-[47rem] md:top-[25rem] lg:top-[22rem] xl:top-[28rem]  text-white/85 
+              className="absolute px-[1rem] md:left-[20rem] lg:left-[29rem] xl:left-[37rem] top-[42rem] sm:top-[40rem] md:top-[21rem] lg:top-[22rem] xl:top-[28rem]  text-white/85 
          text-[2rem] md:text-[1.5rem] lg:text-[1.8rem] xl:text-[2.5rem]  md:mr-[6rem] lg:mr-[6rem] xl:mr-[6rem] "
             >
               Discover Your Personal Style and the Confidence That Comes with
               It.
             </div>
             <div
-              className="absolute px-[1rem] md:left-[23rem] lg:left-[29rem] xl:left-[35rem] top-[55rem] sm:top-[55rem] md:top-[33rem] lg:top-[31rem] xl:top-[40rem]  text-white/85 
+              className="absolute px-[1rem] md:left-[20rem] lg:left-[29rem] xl:left-[37rem] top-[55rem] sm:top-[47rem] md:top-[27rem] lg:top-[31rem] xl:top-[40rem]  text-white/85 
          text-[1rem] md:text-[0.8rem] lg:text-[0.96rem] xl:text-[1.2rem] mr-4 md:mr-[6rem] lg:mr-[6rem] xl:mr-[6rem]"
             >
               Tempora aliqua cillum accusamus aperiam pharetra cupidatat
@@ -86,7 +86,7 @@ function App() {
             </div>
 
             <button
-              class="absolute left-[1rem] md:left-[24rem] lg:left-[30rem] xl:left-[36rem] top-[66rem] sm:top-[62rem] md:top-[42rem] lg:top-[40rem] xl:top-[49.5rem] border-[0.05rem] text-white/85 
+              class="absolute left-[1rem] md:left-[21rem] lg:left-[30rem] xl:left-[38rem] top-[66rem] sm:top-[53rem] md:top-[34rem] lg:top-[40rem] xl:top-[49.5rem] border-[0.05rem] text-white/85 
          text-[0.95rem]  px-[2rem] py-[0.5rem] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-50 "
             >
               <div className=" flex justify-center items-start flex-row gap-3">
@@ -109,31 +109,31 @@ function App() {
         </div>
         <div className="relative flex flex-col w-[79vw] mx-auto sm:mx-auto  sm:flex-col md:flex-row lg:grid lg:grid-cols-4 lg:place-items-center items-center  lg:gap-1 gap-7  my-[3rem] sm:my-[3rem] md:my-5 h-[80vh] lg:h-[100vh] lg:w-[94vw] lg:my-7 ">
           <img
-            className=" sm:h-[100%] sm:w-[70%] md:h-[80%] md:w-[20%] lg:h-[80%] lg:w-[80%] xl:h-[80%] "
+            className="sm:h-[100%] sm:w-[70%] md:h-[50%] md:w-[20%] lg:h-[80%] lg:w-[80%] xl:h-[60%] "
             src="/first.jpg"
             alt="Image"
           />
           <img
-            className=" sm:h-[100%] sm:w-[70%] md:h-[90%] md:w-[20%]  lg:h-[95%] lg:w-[80%] xl:h-[90%] "
+            className="sm:h-[100%] sm:w-[70%] md:h-[60%] md:w-[20%]  lg:h-[95%] lg:w-[80%] xl:h-[70%] "
             src="/model-2.jpg"
             alt="Image"
           />
           <img
-            className="sm:h-[100%] sm:w-[70%] md:h-[100%] md:w-[23%] lg:h-[80%] lg:w-[80%] "
+            className="sm:h-[100%] sm:w-[70%] md:h-[70%] md:w-[23%] lg:h-[80%] lg:w-[80%] "
             src="/model-3.jpg"
             alt="Image"
           />
           <img
-            className=" sm:h-[100%] sm:w-[70%] md:h-[90%] md:w-[25%]   lg:h-[90%] lg:w-[80%] xl:h-[80%] "
+            className=" sm:h-[100%] sm:w-[70%] md:h-[60%] md:w-[25%]   lg:h-[90%] lg:w-[80%] xl:h-[60%] "
             src="/model-4.jpg"
             alt="Image"
           />
         </div>
-        <div className="relative flex flex-col justify-between items-center md:grid grid-cols-3 md:place-items-start lg:grid  lg:place-items-center h-[75vh] sm:h-[52vh] md:h-[20vh] lg:h-[30vh]  w-full  mt-[83rem] sm:mt-[94rem] md:mt-[2rem] lg:mt-[1rem] xl:mt-[1rem] mx-auto ">
+        <div className="relative flex flex-col justify-between items-center md:grid grid-cols-3 md:place-items-start lg:grid  lg:place-items-center h-[75vh] sm:h-[52vh] md:h-[20vh] lg:h-[30vh]  w-full  mt-[107rem] sm:mt-[108rem] md:mt-[1rem] lg:mt-[1rem] xl:mt-[1rem] mx-auto ">
           <div className="flex flex-col justify-center items-center lg:col-span-1  ">
             <div className="flex flex-col justify-center items-center lg:flex-row lg:justify-center lg:items-center  gap-2 mx-auto">
               <img
-                className="h-[55%] lg:h-[15%]    "
+                className="h-[55%] lg:h-[15%] "
                 src="/01-free-img.png"
                 alt="Image"
               />
@@ -171,7 +171,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="h-[65vh] sm:h-[40vh] md:h-[35vh] lg:h-[60vh] bg-red-50 flex flex-col items-center mt-[6rem] md:mt-[1rem] xl:mt-[1.5rem]  ">
+        <div className="h-[65vh] sm:h-[55vh] md:h-[50vh] lg:h-[60vh] bg-red-50 flex flex-col items-center mt-[6rem] sm:mt-[4rem] md:mt-[1rem] xl:mt-[1.5rem]  ">
           <div className="text-black text-[1rem] lg:text-[1.5rem] mt-[3rem] underline underline-offset-[1.05rem] lg:underline-offset-[1.75rem] decoration-[0.1rem] lg:decoration-[0.15rem] px-4">
             Testimonials
           </div>
@@ -238,8 +238,8 @@ function App() {
           />
         </div>
         <div className="">
-          <div className="text-black text-[0.95rem] flex flex-col justify-center sm:gap-10 md:grid md:grid-cols-4  lg:grid lg:grid-cols-3 place-items-start gap-5 mt-[6rem] sm:mt-[20rem] md:mt-[3rem] lg:mt-[3rem] px-5 lg:px-8 h-[100vh] md:h-[90vh]  ">
-            <div className="  bg-[#C2A09E] md:col-span-4 lg:col-span-1 h-[80vh] sm:h-[70vh] md:h-[30vh] w-full place-items-start ">
+          <div className="text-black text-[0.95rem] flex flex-col justify-center sm:gap-10 md:grid md:grid-cols-4  lg:grid lg:grid-cols-3 place-items-start gap-5 mt-[26rem] sm:mt-[28rem] md:mt-[3rem] lg:mt-[3rem] px-5 lg:px-8 h-[100vh] md:h-[90vh]  ">
+            <div className="  bg-[#C2A09E] md:col-span-4 lg:col-span-1 h-[80vh] sm:h-[70vh] md:h-[45vh] lg:h-[60vh] w-full place-items-start ">
               <div className="text-white/85 text-[3rem] xl:text-[3.5rem]  mt-[3rem] md:mt-[1rem] mx-[2rem]">
                 Area of Expertise!
               </div>
@@ -333,7 +333,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="h-[100vh] relative parallax-container flex flex-col justify-center items-center mt-[20rem] sm:mt-[25rem] md:mt-[12rem] lg:mt-[1rem] ">
+        <div className="h-[100vh] relative parallax-container flex flex-col justify-center items-center mt-[26rem] sm:mt-[27rem] md:mt-[12rem] lg:mt-[0.1rem]">
           <div className="text-white/85 text-[0.8rem]  lg:text-[1.5rem] underline underline-offset-[1.5rem] lg:underline-offset-[1.75rem] decoration-[0.07rem] lg:decoration-[0.15rem] px-4 mt-[0.25rem] lg:top-2">
             Contact Me
           </div>

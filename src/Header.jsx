@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Route } from "react-router-dom";
+// import { Route } from "react-router-dom";
 import { IoReorderThree } from "react-icons/io5";
 import { ImCross } from "react-icons/im";
 
@@ -31,7 +31,7 @@ function Header() {
       <div className="flex justify-between  w-full py-2  ">
         <div className=" flex font-bold text-2xl col-span-1  place-items-center p-2">
           <img
-            className="max-w-screen-sm cursor-pointer xl:h-[13vh]  "
+            className="max-w-screen-sm cursor-pointer xl:h-[13vh]"
             src="/vite.svg"
             alt="Image"
           />
