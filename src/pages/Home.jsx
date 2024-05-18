@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { MdOutlineSlowMotionVideo } from "react-icons/md";
 import { IoMdArrowDropright } from "react-icons/io";
+import { RxCross2 } from "react-icons/rx";
 import { Routes, Route } from "react-router-dom";
 
 const Home = () => {
@@ -57,14 +58,14 @@ const Home = () => {
 
       {isModalOpen && (
         <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75">
-          <div className="bg-white p-4 rounded-lg">
-            <button className="text-red-500 mb-4" onClick={closeModal}>
-              Close
+          <div className="bg-white p-3 rounded-lg items-end">
+            <button className="text-red-500 mb-4  " onClick={closeModal}>
+            <RxCross2 size={25}/>
             </button>
             <div className="aspect-w-16 aspect-h-9">
               <iframe
-                width="560"
-                height="315"
+                width="900"
+                height="415"
                 src="https://www.youtube.com/embed/example_video_id"
                 title="YouTube video player"
                 frameBorder="0"

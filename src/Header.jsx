@@ -15,75 +15,83 @@ function Header() {
 
   const menu = [
     {
-      menuName: "Home",
-      link: "/home",
-      subMenus: [
-        {
-          menuName: "Product",
-          link: "/product",
-          // subMenus: [
-          //   { menuName: "submenu1_1_1", link: "", subMenus: [] },
-          //   { menuName: "submenu1_1_2", link: "", subMenus: [] },
-          // ],
-        },
-        {
-          menuName: "Clothes",
-          link: "/clothes",
-          // subMenus: [
-          //   { menuName: "submenu1_1_1", link: "", subMenus: [] },
-          //   { menuName: "submenu1_1_2", link: "", subMenus: [] },
-          // ],
-        },
-        {
-          menuName: "PRODUCTS",
-          link: "/product",
-          // subMenus: [
-          //   { menuName: "submenu1_1_1", link: "", subMenus: [] },
-          //   { menuName: "submenu1_1_2", link: "", subMenus: [] },
-          // ],
-        },
-      ],
+      menuName: "Products",
+      link: "/products",
+      // subMenus: [
+      //   {
+      //     menuName: "Fashion",
+      //     link: "/fashion",
+      //     // subMenus: [
+      //     //   { menuName: "submenu1_1_1", link: "", subMenus: [] },
+      //     //   { menuName: "submenu1_1_2", link: "", subMenus: [] },
+      //     // ],
+      //   },
+      //   {
+      //     menuName: "Beauty & Grooming",
+      //     link: "/clothes",
+      //     // subMenus: [
+      //     //   { menuName: "submenu1_1_1", link: "", subMenus: [] },
+      //     //   { menuName: "submenu1_1_2", link: "", subMenus: [] },
+      //     // ],
+      //   },
+      //   {
+      //     menuName: "Toys",
+      //     link: "/toys",
+      //     // subMenus: [
+      //     //   { menuName: "submenu1_1_1", link: "", subMenus: [] },
+      //     //   { menuName: "submenu1_1_2", link: "", subMenus: [] },
+      //     // ],
+      //   },
+      //   {
+      //     menuName: "Home & Kitchen",
+      //     link: "/homekitchen",
+      //     // subMenus: [
+      //     //   { menuName: "submenu1_1_1", link: "", subMenus: [] },
+      //     //   { menuName: "submenu1_1_2", link: "", subMenus: [] },
+      //     // ],
+      //   },
+      // ],
     },
     {
       menuName: "Blog",
       link: "/blog",
-      subMenus: [
-        {
-          menuName: "NewBlog",
-          link: "/blogging",
-          // subMenus: [
-          //   { menuName: submenu1_1_1, link: "", subMenus: [] },
-          //   { menuName: submenu1_1_2, link: "", subMenus: [] },
-          // ],
-        },
-      ],
+      // subMenus: [
+      //   {
+      //     menuName: "NewBlog",
+      //     link: "/blogging",
+      //     // subMenus: [
+      //     //   { menuName: submenu1_1_1, link: "", subMenus: [] },
+      //     //   { menuName: submenu1_1_2, link: "", subMenus: [] },
+      //     // ],
+      //   },
+      // ],
     },
     {
       menuName: "New Arrivals",
       link: "/newarrivals",
-      subMenus: [
-        {
-          menuName: "Shirts",
-          link: "/shirts",
-          // subMenus: [
-          //   { menuName: submenu1_1_1, link: "", subMenus: [] },
-          //   { menuName: submenu1_1_2, link: "", subMenus: [] },
-          // ],
-        },
-      ],
+      // subMenus: [
+      //   {
+      //     menuName: "Shirts",
+      //     link: "/shirts",
+      //     // subMenus: [
+      //     //   { menuName: submenu1_1_1, link: "", subMenus: [] },
+      //     //   { menuName: submenu1_1_2, link: "", subMenus: [] },
+      //     // ],
+      //   },
+      // ],
     },
     {
       menuName: "Contact",
       link: "/contact",
-      subMenus: [
-        {
-          menuName: "6353589776",
-          // subMenus: [
-          //   { menuName: submenu1_1_1, link: "", subMenus: [] },
-          //   { menuName: submenu1_1_2, link: "", subMenus: [] },
-          // ],
-        },
-      ],
+      // subMenus: [
+      //   {
+      //     menuName: "6353589776",
+      //     // subMenus: [
+      //     //   { menuName: submenu1_1_1, link: "", subMenus: [] },
+      //     //   { menuName: submenu1_1_2, link: "", subMenus: [] },
+      //     // ],
+      //   },
+      // ],
     },
   ];
 
