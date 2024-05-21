@@ -1,15 +1,16 @@
-import Home from "./pages/Home";
+import Home from "./components/Home";
 import { Routes, Route } from "react-router-dom";
-import Blog from "./pages/Blog";
-import NewArrival from "./pages/NewArrival";
-import Contact from "./pages/Contact";
-import Product from "./pages/Product";
-import Ethnic from "./pages/Products/Ethnicwear";
-import Western from "./pages/Products/WesternWear";
-import Footware from "./pages/Products/FootWear";
-import Accessories from "./pages/Products/Accessories";
-import Beauty from "./pages/Products/Beauty";
-import Jewellery from "./pages/Products/Jewellery";
+import Blog from "./components/Blog";
+import NewArrival from "./components/NewArrival";
+import Contact from "./components/Contact";
+import Product from "./components/Product";
+import Ethnic from "./components/pages/Ethnicwear";
+import Western from "./components/pages/WesternWear";
+import Footware from "./components/pages/FootWear";
+import Accessories from "./components/pages/Accessories";
+import Beauty from "./components/pages/Beauty";
+import Jewellery from "./components/pages/Jewellery";
+import SingleProduct from "./components/common/SingleProduct";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/accessories" element={<Accessories />} />
         <Route path="/beauty" element={<Beauty />} />
         <Route path="/jewellery" element={<Jewellery />} />
+        <Route path="/singleproduct" element={<SingleProduct />} />
       </Routes>
     </>
   );

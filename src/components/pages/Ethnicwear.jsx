@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Product from "../../common/Product";
+import ProductPage from "../common/ProductPage" ;
 
 const Ethnicwear = () => {
-  const products = [
+  const ethnics = [
     {
       sponser: "Sponsored",
       prize: "₹2,999",
@@ -284,14 +284,12 @@ const Ethnicwear = () => {
       src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBK7FcyzGTdzEd9nN_Z3Qgf_T4LY5KkYj7w&usqp=CAU",
       sizes: ["S", "L", "M", "XL", "XXL"],
     },
-    
-    
   ];
   return (
     <div className="flex flex-col gap-0  w-full  ">
       <div className="grid grid-cols-1  gap-7 place-items-start  m-[2rem]  border-bl  bg-white h-auto md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {products.map((curElem, index) => {
-          return <Product key={index} product={curElem} />;
+        {ethnics.map((curElem, index) => {
+          return <ProductPage key={index} ethnic={curElem} />;
         })}
       </div>
     </div>

@@ -110,13 +110,11 @@ const Product = () => {
           </div>
         </div>
       </div>
-      <div className=" grid grid-cols-6 place-items-start  m-[1rem]  bg-purple-200 h-auto  ">
-        <div>tttttt</div>
-        <div>tttttt</div>
-        <div>tttttt</div>
-        <div>tttttt</div>
-        <div>tttttt</div>
-        <div>tttttt</div>
+      <div className=" items-center m-[1rem] bg-purple-200 h-auto  ">
+       <p className="font-extrabold text-[2.5rem] p-[2rem] mx-[20rem]">UP TO 30% OFF DRESSES , TOPS AND MORE! </p>
+       <div className="p-4">
+       <p className="font-thin text-[1rem] mx-[35rem] ">Limited time only, Selected style marked down on site. </p>
+       </div>
       </div>
     </div>
   );
