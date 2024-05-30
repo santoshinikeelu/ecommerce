@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ProductPage from "../common/ProductPage" ;
+import ProductPage from "../common/ProductPage";
+import singleProduct from "../common/SingleProduct";
 
 const Ethnicwear = () => {
   const ethnics = [
@@ -11,7 +12,14 @@ const Ethnicwear = () => {
       offer: "76% off",
       brandName: "Klosia",
       name: "Women Viscose Rayon Kurta...",
-      src: "https://ahika.in/cdn/shop/products/vkskd1099-f_2.jpg?v=1695212270&width=1445",
+      src: [
+        "https://ahika.in/cdn/shop/products/vkskd1099-f_2.jpg?v=1695212270&width=1445",
+        "https://img.faballey.com/images/Product/IPL00834Z/d3.jpg",
+        "https://www.beatitude.in/cdn/shop/articles/DSC_2173_720x_dec1d27e-c2a7-4ce7-8b21-654c0ca12e43_1024x.webp?v=1675162397",
+        "https://juniperfashion.com/cdn/shop/files/Untitled_design_5.jpg?v=1704555519&width=1080",
+        "https://images-static.nykaa.com/uploads/5b800cb0-e91c-42ed-b529-d3379cb9e355.jpg?tr=w-300,cm-pad_resize",
+        "https://www.gochikko.com/cdn/shop/files/0D3A3625-min.jpg?v=1687503956",
+      ],
       sizes: ["S", "L", "M", "XL", "XXL"],
     },
     {
@@ -289,7 +297,9 @@ const Ethnicwear = () => {
     <div className="flex flex-col gap-0  w-full  ">
       <div className="grid grid-cols-1  gap-7 place-items-start  m-[2rem]  border-bl  bg-white h-auto md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {ethnics.map((curElem, index) => {
-          return <ProductPage key={index} ethnic={curElem} />;
+          return <ProductPage key={index} product={curElem} />;
+          return <singleProduct key={index} product={curElem} />;
+
         })}
       </div>
     </div>
